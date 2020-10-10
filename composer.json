@@ -9,7 +9,7 @@
     ],
     "require": {
         "monolog/monolog": "1.0.*",
-        "MartinNeburac/exam-pub": "dev-main"
+        "martinneburac/exam-pub": "dev-main"
     },
     "autoload": {
         "psr-4": {"Acme\\": "src/"}
