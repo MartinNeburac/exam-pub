@@ -1,0 +1,17 @@
+{
+    "name": "acme/hello-world",
+    "description": "",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/username/hello-world"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "acme/hello-world": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
